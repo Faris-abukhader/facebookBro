@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845E3F5D25CC07AC00B9158D /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E3F5C25CC07AC00B9158D /* TestView.swift */; };
+		845E3F6025CC3A7000B9158D /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845E3F5F25CC3A7000B9158D /* UserData.swift */; };
+		84BC55F425CA82E700BB87B2 /* facebookBroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC55F325CA82E700BB87B2 /* facebookBroApp.swift */; };
+		84BC55F625CA82E700BB87B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC55F525CA82E700BB87B2 /* ContentView.swift */; };
+		84BC55F825CA82EB00BB87B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BC55F725CA82EB00BB87B2 /* Assets.xcassets */; };
+		84BC55FB25CA82EB00BB87B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84BC55FA25CA82EB00BB87B2 /* Preview Assets.xcassets */; };
+		84BC560425CA836A00BB87B2 /* PostPrivacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC560325CA836A00BB87B2 /* PostPrivacy.swift */; };
+		84BC560725CA83A000BB87B2 /* EditProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC560625CA83A000BB87B2 /* EditProfile.swift */; };
+		84BC560A25CA83C800BB87B2 /* ProfileSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC560925CA83C800BB87B2 /* ProfileSettings.swift */; };
+		84BC560D25CA83E400BB87B2 /* ProfileAbout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC560C25CA83E400BB87B2 /* ProfileAbout.swift */; };
+		84BC561325CA841B00BB87B2 /* allCatogeries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC561225CA841B00BB87B2 /* allCatogeries.swift */; };
+		84BC561625CA843200BB87B2 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC561525CA843200BB87B2 /* Timeline.swift */; };
+		84BC561925CA844B00BB87B2 /* allGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC561825CA844B00BB87B2 /* allGroups.swift */; };
+		84BC561C25CA846000BB87B2 /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC561B25CA846000BB87B2 /* Watch.swift */; };
+		84BC561F25CA848300BB87B2 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC561E25CA848300BB87B2 /* Notifications.swift */; };
+		84BC562225CA849A00BB87B2 /* moreGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC562125CA849A00BB87B2 /* moreGroup.swift */; };
+		84BC562525CA84B600BB87B2 /* CreatePost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC562425CA84B600BB87B2 /* CreatePost.swift */; };
+		84BC562825CA84D700BB87B2 /* ExceptedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC562725CA84D700BB87B2 /* ExceptedList.swift */; };
+		84BC562B25CA84F900BB87B2 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC562A25CA84F900BB87B2 /* Profile.swift */; };
+		84BC562E25CA851000BB87B2 /* SeeAllView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC562D25CA851000BB87B2 /* SeeAllView.swift */; };
+		84BC563125CA852A00BB87B2 /* ShowMoreStory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC563025CA852A00BB87B2 /* ShowMoreStory.swift */; };
+		84C62DBD25D0164000213E5E /* MoreList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BC560F25CA83FB00BB87B2 /* MoreList.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		845E3F5C25CC07AC00B9158D /* TestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
+		845E3F5F25CC3A7000B9158D /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		84BC55F025CA82E700BB87B2 /* facebookBro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebookBro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84BC55F325CA82E700BB87B2 /* facebookBroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookBroApp.swift; sourceTree = "<group>"; };
+		84BC55F525CA82E700BB87B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84BC55F725CA82EB00BB87B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84BC55FA25CA82EB00BB87B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84BC55FC25CA82EB00BB87B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84BC560325CA836A00BB87B2 /* PostPrivacy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPrivacy.swift; sourceTree = "<group>"; };
+		84BC560625CA83A000BB87B2 /* EditProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfile.swift; sourceTree = "<group>"; };
+		84BC560925CA83C800BB87B2 /* ProfileSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettings.swift; sourceTree = "<group>"; };
+		84BC560C25CA83E400BB87B2 /* ProfileAbout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAbout.swift; sourceTree = "<group>"; };
+		84BC560F25CA83FB00BB87B2 /* MoreList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreList.swift; sourceTree = "<group>"; };
+		84BC561225CA841B00BB87B2 /* allCatogeries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allCatogeries.swift; sourceTree = "<group>"; };
+		84BC561525CA843200BB87B2 /* Timeline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		84BC561825CA844B00BB87B2 /* allGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = allGroups.swift; sourceTree = "<group>"; };
+		84BC561B25CA846000BB87B2 /* Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
+		84BC561E25CA848300BB87B2 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		84BC562125CA849A00BB87B2 /* moreGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreGroup.swift; sourceTree = "<group>"; };
+		84BC562425CA84B600BB87B2 /* CreatePost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePost.swift; sourceTree = "<group>"; };
+		84BC562725CA84D700BB87B2 /* ExceptedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExceptedList.swift; sourceTree = "<group>"; };
+		84BC562A25CA84F900BB87B2 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		84BC562D25CA851000BB87B2 /* SeeAllView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeeAllView.swift; sourceTree = "<group>"; };
+		84BC563025CA852A00BB87B2 /* ShowMoreStory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowMoreStory.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84BC55ED25CA82E700BB87B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84BC55E725CA82E700BB87B2 = {
+			isa = PBXGroup;
+			children = (
+				84BC55F225CA82E700BB87B2 /* facebookBro */,
+				84BC55F125CA82E700BB87B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84BC55F125CA82E700BB87B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84BC55F025CA82E700BB87B2 /* facebookBro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84BC55F225CA82E700BB87B2 /* facebookBro */ = {
+			isa = PBXGroup;
+			children = (
+				84BC55F325CA82E700BB87B2 /* facebookBroApp.swift */,
+				84BC55F525CA82E700BB87B2 /* ContentView.swift */,
+				84BC560325CA836A00BB87B2 /* PostPrivacy.swift */,
+				84BC560625CA83A000BB87B2 /* EditProfile.swift */,
+				84BC560925CA83C800BB87B2 /* ProfileSettings.swift */,
+				845E3F5F25CC3A7000B9158D /* UserData.swift */,
+				84BC560C25CA83E400BB87B2 /* ProfileAbout.swift */,
+				84BC560F25CA83FB00BB87B2 /* MoreList.swift */,
+				84BC561225CA841B00BB87B2 /* allCatogeries.swift */,
+				84BC561525CA843200BB87B2 /* Timeline.swift */,
+				84BC561825CA844B00BB87B2 /* allGroups.swift */,
+				84BC561B25CA846000BB87B2 /* Watch.swift */,
+				84BC561E25CA848300BB87B2 /* Notifications.swift */,
+				845E3F5C25CC07AC00B9158D /* TestView.swift */,
+				84BC562125CA849A00BB87B2 /* moreGroup.swift */,
+				84BC562425CA84B600BB87B2 /* CreatePost.swift */,
+				84BC562725CA84D700BB87B2 /* ExceptedList.swift */,
+				84BC562A25CA84F900BB87B2 /* Profile.swift */,
+				84BC562D25CA851000BB87B2 /* SeeAllView.swift */,
+				84BC563025CA852A00BB87B2 /* ShowMoreStory.swift */,
+				84BC55F725CA82EB00BB87B2 /* Assets.xcassets */,
+				84BC55FC25CA82EB00BB87B2 /* Info.plist */,
+				84BC55F925CA82EB00BB87B2 /* Preview Content */,
+			);
+			path = facebookBro;
+			sourceTree = "<group>";
+		};
+		84BC55F925CA82EB00BB87B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84BC55FA25CA82EB00BB87B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84BC55EF25CA82E700BB87B2 /* facebookBro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84BC55FF25CA82EB00BB87B2 /* Build configuration list for PBXNativeTarget "facebookBro" */;
+			buildPhases = (
+				84BC55EC25CA82E700BB87B2 /* Sources */,
+				84BC55ED25CA82E700BB87B2 /* Frameworks */,
+				84BC55EE25CA82E700BB87B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = facebookBro;
+			productName = facebookBro;
+			productReference = 84BC55F025CA82E700BB87B2 /* facebookBro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84BC55E825CA82E700BB87B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					84BC55EF25CA82E700BB87B2 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 84BC55EB25CA82E700BB87B2 /* Build configuration list for PBXProject "facebookBro" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84BC55E725CA82E700BB87B2;
+			productRefGroup = 84BC55F125CA82E700BB87B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84BC55EF25CA82E700BB87B2 /* facebookBro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84BC55EE25CA82E700BB87B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84BC55FB25CA82EB00BB87B2 /* Preview Assets.xcassets in Resources */,
+				84BC55F825CA82EB00BB87B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84BC55EC25CA82E700BB87B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C62DBD25D0164000213E5E /* MoreList.swift in Sources */,
+				84BC561F25CA848300BB87B2 /* Notifications.swift in Sources */,
+				84BC561625CA843200BB87B2 /* Timeline.swift in Sources */,
+				84BC55F625CA82E700BB87B2 /* ContentView.swift in Sources */,
+				84BC561C25CA846000BB87B2 /* Watch.swift in Sources */,
+				84BC562825CA84D700BB87B2 /* ExceptedList.swift in Sources */,
+				84BC560425CA836A00BB87B2 /* PostPrivacy.swift in Sources */,
+				84BC562225CA849A00BB87B2 /* moreGroup.swift in Sources */,
+				84BC561925CA844B00BB87B2 /* allGroups.swift in Sources */,
+				84BC562525CA84B600BB87B2 /* CreatePost.swift in Sources */,
+				845E3F6025CC3A7000B9158D /* UserData.swift in Sources */,
+				84BC562B25CA84F900BB87B2 /* Profile.swift in Sources */,
+				84BC55F425CA82E700BB87B2 /* facebookBroApp.swift in Sources */,
+				84BC562E25CA851000BB87B2 /* SeeAllView.swift in Sources */,
+				84BC560A25CA83C800BB87B2 /* ProfileSettings.swift in Sources */,
+				84BC560725CA83A000BB87B2 /* EditProfile.swift in Sources */,
+				84BC561325CA841B00BB87B2 /* allCatogeries.swift in Sources */,
+				845E3F5D25CC07AC00B9158D /* TestView.swift in Sources */,
+				84BC563125CA852A00BB87B2 /* ShowMoreStory.swift in Sources */,
+				84BC560D25CA83E400BB87B2 /* ProfileAbout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		84BC55FD25CA82EB00BB87B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84BC55FE25CA82EB00BB87B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84BC560025CA82EB00BB87B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"facebookBro/Preview Content\"";
+				DEVELOPMENT_TEAM = RG6D3388Z6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = facebookBro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fares.facebookBro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84BC560125CA82EB00BB87B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"facebookBro/Preview Content\"";
+				DEVELOPMENT_TEAM = RG6D3388Z6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = facebookBro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fares.facebookBro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84BC55EB25CA82E700BB87B2 /* Build configuration list for PBXProject "facebookBro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BC55FD25CA82EB00BB87B2 /* Debug */,
+				84BC55FE25CA82EB00BB87B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84BC55FF25CA82EB00BB87B2 /* Build configuration list for PBXNativeTarget "facebookBro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84BC560025CA82EB00BB87B2 /* Debug */,
+				84BC560125CA82EB00BB87B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84BC55E825CA82E700BB87B2 /* Project object */;
+}
